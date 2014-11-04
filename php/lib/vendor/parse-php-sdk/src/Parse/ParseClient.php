@@ -243,6 +243,7 @@ final class ParseClient
       curl_setopt($rest, CURLOPT_CUSTOMREQUEST, $method);
     }
     curl_setopt($rest, CURLOPT_HTTPHEADER, $headers);
+    curl_setopt($rest, CURLOPT_SSL_VERIFYPEER, false); 
     $response = curl_exec($rest);
     $status = curl_getinfo($rest, CURLINFO_HTTP_CODE);
     $contentType = curl_getinfo($rest, CURLINFO_CONTENT_TYPE);

@@ -1,0 +1,74 @@
+Nov 04 02:29:10 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 04 02:29:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 04 02:29:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 04 02:29:10 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 04 02:29:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 04 02:29:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 04 02:29:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 04 02:29:24 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 04 02:31:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 04 02:31:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 04 02:31:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 04 02:31:42 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 04 02:57:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 04 02:57:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 04 02:57:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 04 02:57:08 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 04 02:58:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 04 02:58:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 04 02:58:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 04 02:58:04 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 04 02:59:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 04 02:59:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 04 02:59:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 04 02:59:00 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 04 02:59:02 symfony [info] {sfPHPView} Render "D:\Github\wsprogramacion\php\apps\ws\modules/api/templates/indexSuccess.php"
+Nov 04 02:59:02 symfony [info] {sfPHPView} Decorate content with "D:\Github\wsprogramacion\php\apps\ws\templates/layout.php"
+Nov 04 02:59:02 symfony [info] {sfPHPView} Render "D:\Github\wsprogramacion\php\apps\ws\templates/layout.php"
+Nov 04 02:59:02 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Nov 04 02:59:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 04 02:59:02 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Nov 04 02:59:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 04 02:59:02 symfony [info] {sfWebDebugLogger} Configuration 71.39 ms (10)
+Nov 04 02:59:02 symfony [info] {sfWebDebugLogger} Factories 74.06 ms (1)
+Nov 04 02:59:02 symfony [info] {sfWebDebugLogger} Action "api/index" 16.18 ms (1)
+Nov 04 02:59:02 symfony [info] {sfWebDebugLogger} View "Success" for "api/index" 1992.47 ms (1)
+Nov 04 02:59:02 symfony [info] {sfWebResponse} Send content (29034 o)
+Nov 04 03:05:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 04 03:05:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 04 03:05:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 04 03:05:13 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 04 03:05:13 symfony [err] {Parse\ParseException} SSL certificate problem: unable to get local issuer certificate
+Nov 04 03:05:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Nov 04 03:05:14 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Nov 04 03:05:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 04 03:05:14 symfony [info] {sfWebDebugLogger} Configuration 22.50 ms (8)
+Nov 04 03:05:14 symfony [info] {sfWebDebugLogger} Factories 67.87 ms (1)
+Nov 04 03:05:14 symfony [info] {sfWebDebugLogger} Action "api/index" 530.56 ms (1)
+Nov 04 03:16:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 04 03:16:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 04 03:16:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 04 03:16:59 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 04 03:16:59 symfony [err] {Parse\ParseException} SSL certificate problem: unable to get local issuer certificate
+Nov 04 03:17:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Nov 04 03:17:00 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Nov 04 03:17:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 04 03:17:00 symfony [info] {sfWebDebugLogger} Configuration 17.64 ms (8)
+Nov 04 03:17:00 symfony [info] {sfWebDebugLogger} Factories 77.30 ms (1)
+Nov 04 03:17:00 symfony [info] {sfWebDebugLogger} Action "api/index" 647.91 ms (1)
+Nov 04 03:18:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 04 03:18:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 04 03:18:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 04 03:18:42 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 04 03:18:43 symfony [info] {sfPHPView} Render "D:\Github\wsprogramacion\php\apps\ws\modules/api/templates/indexSuccess.php"
+Nov 04 03:18:43 symfony [info] {sfPHPView} Decorate content with "D:\Github\wsprogramacion\php\apps\ws\templates/layout.php"
+Nov 04 03:18:43 symfony [info] {sfPHPView} Render "D:\Github\wsprogramacion\php\apps\ws\templates/layout.php"
+Nov 04 03:18:43 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Nov 04 03:18:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 04 03:18:44 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Nov 04 03:18:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 04 03:18:44 symfony [info] {sfWebDebugLogger} Configuration 21.27 ms (9)
+Nov 04 03:18:44 symfony [info] {sfWebDebugLogger} Factories 63.68 ms (1)
+Nov 04 03:18:44 symfony [info] {sfWebDebugLogger} Action "api/index" 834.52 ms (1)
+Nov 04 03:18:44 symfony [info] {sfWebDebugLogger} View "Success" for "api/index" 638.45 ms (1)
+Nov 04 03:18:44 symfony [info] {sfWebResponse} Send content (29034 o)
