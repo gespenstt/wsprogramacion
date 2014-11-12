@@ -72,3 +72,895 @@ Nov 04 03:18:44 symfony [info] {sfWebDebugLogger} Factories 63.68 ms (1)
 Nov 04 03:18:44 symfony [info] {sfWebDebugLogger} Action "api/index" 834.52 ms (1)
 Nov 04 03:18:44 symfony [info] {sfWebDebugLogger} View "Success" for "api/index" 638.45 ms (1)
 Nov 04 03:18:44 symfony [info] {sfWebResponse} Send content (29034 o)
+Nov 05 00:04:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 05 00:04:02 symfony [info] {myUser} Automatic user logout due to timeout
+Nov 05 00:04:02 symfony [info] {myUser} User is not authenticated
+Nov 05 00:04:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 05 00:04:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 05 00:04:03 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 05 00:04:05 symfony [info] {sfPHPView} Render "D:\Github\wsprogramacion\php\apps\ws\modules/api/templates/indexSuccess.php"
+Nov 05 00:04:05 symfony [info] {sfPHPView} Decorate content with "D:\Github\wsprogramacion\php\apps\ws\templates/layout.php"
+Nov 05 00:04:05 symfony [info] {sfPHPView} Render "D:\Github\wsprogramacion\php\apps\ws\templates/layout.php"
+Nov 05 00:04:05 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Nov 05 00:04:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 05 00:04:05 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Nov 05 00:04:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 05 00:04:05 symfony [info] {sfWebDebugLogger} Configuration 62.45 ms (9)
+Nov 05 00:04:05 symfony [info] {sfWebDebugLogger} Factories 743.44 ms (1)
+Nov 05 00:04:05 symfony [info] {sfWebDebugLogger} Action "api/index" 992.47 ms (1)
+Nov 05 00:04:05 symfony [info] {sfWebDebugLogger} View "Success" for "api/index" 1380.40 ms (1)
+Nov 05 00:04:06 symfony [info] {sfWebResponse} Send content (29788 o)
+Nov 11 03:46:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 11 03:46:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 03:46:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 03:46:56 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 11 03:47:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 11 03:47:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 03:47:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 03:47:02 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 11 03:47:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 11 03:47:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 03:47:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 03:47:05 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 11 03:47:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 11 03:47:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 03:47:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 03:47:29 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 11 03:48:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 11 03:48:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 03:48:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 03:48:34 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 11 03:48:34 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 53 (Use of undefined constant DEFAULT_TARGET_CHARSET - assumed 'DEFAULT_TARGET_CHARSET')
+Nov 11 03:48:34 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 53 (Use of undefined constant DEFAULT_BR_TEXT - assumed 'DEFAULT_BR_TEXT')
+Nov 11 03:48:34 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 53 (Use of undefined constant DEFAULT_SPAN_TEXT - assumed 'DEFAULT_SPAN_TEXT')
+Nov 11 03:48:42 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:42 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:42 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:45 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 790 (iconv(): Wrong charset, conversion from `UTF-8' to `DEFAULT_TARGET_CHARSET' is not allowed)
+Nov 11 03:48:46 symfony [info] {sfPHPView} Render "D:\Github\wsprogramacion\php\apps\ws\modules/api/templates/indexSuccess.php"
+Nov 11 03:48:46 symfony [info] {sfPHPView} Decorate content with "D:\Github\wsprogramacion\php\apps\ws\templates/layout.php"
+Nov 11 03:48:46 symfony [info] {sfPHPView} Render "D:\Github\wsprogramacion\php\apps\ws\templates/layout.php"
+Nov 11 03:48:46 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php:53))
+Nov 11 03:48:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 11 03:48:47 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php:53))
+Nov 11 03:48:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 11 03:48:47 symfony [info] {sfWebDebugLogger} Configuration 23.03 ms (10)
+Nov 11 03:48:47 symfony [info] {sfWebDebugLogger} Factories 25.44 ms (1)
+Nov 11 03:48:47 symfony [info] {sfWebDebugLogger} Action "api/index" 12010.32 ms (1)
+Nov 11 03:48:47 symfony [info] {sfWebDebugLogger} View "Success" for "api/index" 314.97 ms (1)
+Nov 11 03:48:47 symfony [info] {sfWebResponse} Send content (29037 o)
+Nov 11 03:49:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 11 03:49:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 03:49:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 03:49:13 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 11 03:49:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 11 03:49:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 11 03:49:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 11 03:49:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 11 03:49:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 11 03:49:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 11 03:49:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 11 03:49:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 11 03:49:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 11 03:49:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 11 03:49:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 11 03:49:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 11 03:49:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 11 03:49:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 11 03:49:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 11 03:49:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 11 03:49:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 11 03:49:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 11 03:49:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 11 03:49:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 11 03:49:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 11 03:49:22 symfony [info] {sfPHPView} Render "D:\Github\wsprogramacion\php\apps\ws\modules/api/templates/indexSuccess.php"
+Nov 11 03:49:22 symfony [info] {sfPHPView} Decorate content with "D:\Github\wsprogramacion\php\apps\ws\templates/layout.php"
+Nov 11 03:49:22 symfony [info] {sfPHPView} Render "D:\Github\wsprogramacion\php\apps\ws\templates/layout.php"
+Nov 11 03:49:22 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php:45))
+Nov 11 03:49:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 11 03:49:22 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php:45))
+Nov 11 03:49:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 11 03:49:22 symfony [info] {sfWebDebugLogger} Configuration 9.90 ms (9)
+Nov 11 03:49:22 symfony [info] {sfWebDebugLogger} Factories 31.69 ms (1)
+Nov 11 03:49:22 symfony [info] {sfWebDebugLogger} Action "api/index" 9298.37 ms (1)
+Nov 11 03:49:22 symfony [info] {sfWebDebugLogger} View "Success" for "api/index" 291.53 ms (1)
+Nov 11 03:49:22 symfony [info] {sfWebResponse} Send content (29033 o)
+Nov 11 03:49:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 11 03:49:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 03:49:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 03:49:39 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 11 03:49:39 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 11 03:49:39 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 11 03:49:39 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 11 03:49:40 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 11 03:49:40 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 11 03:49:40 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 11 03:49:40 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 11 03:49:40 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 11 03:49:40 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 11 03:49:40 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 11 03:49:40 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 11 03:49:40 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 11 03:49:40 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 11 03:49:40 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 11 03:49:40 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 11 03:49:40 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 11 03:49:40 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 11 03:49:40 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 11 03:49:40 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 11 03:49:41 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 11 03:49:41 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 11 03:49:41 symfony [info] {sfPHPView} Render "D:\Github\wsprogramacion\php\apps\ws\modules/api/templates/indexSuccess.php"
+Nov 11 03:49:41 symfony [info] {sfPHPView} Decorate content with "D:\Github\wsprogramacion\php\apps\ws\templates/layout.php"
+Nov 11 03:49:41 symfony [info] {sfPHPView} Render "D:\Github\wsprogramacion\php\apps\ws\templates/layout.php"
+Nov 11 03:49:41 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php:45))
+Nov 11 03:49:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 11 03:49:41 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php:45))
+Nov 11 03:49:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 11 03:49:41 symfony [info] {sfWebDebugLogger} Configuration 8.49 ms (9)
+Nov 11 03:49:41 symfony [info] {sfWebDebugLogger} Factories 25.62 ms (1)
+Nov 11 03:49:41 symfony [info] {sfWebDebugLogger} Action "api/index" 1724.13 ms (1)
+Nov 11 03:49:41 symfony [info] {sfWebDebugLogger} View "Success" for "api/index" 310.46 ms (1)
+Nov 11 03:49:41 symfony [info] {sfWebResponse} Send content (29034 o)
+Nov 11 04:16:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 11 04:16:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 04:16:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 04:16:24 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 11 04:16:24 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 11 04:16:24 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 11 04:16:24 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 11 04:16:24 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 11 04:16:24 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 11 04:16:24 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 11 04:16:25 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 11 04:16:25 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 11 04:16:25 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 11 04:16:25 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 11 04:16:25 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 11 04:16:25 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 11 04:16:25 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 11 04:16:25 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 11 04:16:25 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 11 04:16:25 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 11 04:16:25 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 11 04:16:25 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 11 04:16:25 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 11 04:16:25 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 11 04:16:25 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 11 04:17:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 11 04:17:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 04:17:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 04:17:31 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 11 04:17:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 11 04:17:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 11 04:17:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 11 04:17:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 11 04:17:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 11 04:17:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 11 04:17:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 11 04:17:32 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 11 04:17:32 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 11 04:17:32 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 11 04:17:32 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 11 04:17:32 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 11 04:17:32 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 11 04:17:32 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 11 04:17:32 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 11 04:17:32 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 11 04:17:32 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 11 04:17:32 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 11 04:17:32 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 11 04:17:32 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 11 04:17:32 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 11 04:17:52 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 11 04:17:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 04:17:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 04:17:52 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 11 04:17:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 11 04:17:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 11 04:17:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 11 04:17:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 11 04:17:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 11 04:17:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 11 04:17:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 11 04:17:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 11 04:17:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 11 04:17:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 11 04:17:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 11 04:17:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 11 04:17:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 11 04:17:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 11 04:17:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 11 04:17:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 11 04:17:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 11 04:17:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 11 04:17:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 11 04:17:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 11 04:17:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 11 04:31:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 11 04:31:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 04:31:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 04:31:12 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 11 04:31:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 11 04:31:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 11 04:31:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 11 04:31:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 11 04:31:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 11 04:31:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 11 04:31:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 11 04:31:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 11 04:31:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 11 04:31:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 11 04:31:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 11 04:31:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 11 04:31:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 11 04:31:13 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 11 04:31:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 11 04:31:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 11 04:31:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 11 04:31:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 11 04:31:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 11 04:31:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 11 04:31:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 11 04:31:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 11 04:31:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 11 04:31:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 11 04:31:15 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 11 04:31:16 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 11 04:31:16 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 11 04:31:16 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 11 04:31:16 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 11 04:31:16 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 11 04:31:16 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 11 04:31:16 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 11 04:31:16 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 11 04:31:16 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 11 04:31:16 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 11 04:31:16 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 11 04:31:16 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 11 04:31:17 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 11 04:31:17 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 11 04:31:17 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 11 04:31:17 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 11 04:31:17 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 11 04:31:17 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 11 04:31:17 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 11 04:31:17 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 11 04:31:17 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 12 03:30:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:30:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:30:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:30:14 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:31:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:31:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:31:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:31:37 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:31:37 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 74 (Undefined variable: url)
+Nov 12 03:31:37 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 77 (Undefined variable: log)
+Nov 12 03:32:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:32:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:32:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:32:24 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:32:24 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 75 (Undefined variable: url)
+Nov 12 03:32:24 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 80 (Undefined variable: url)
+Nov 12 03:33:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:33:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:33:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:33:01 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:33:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 75 (Undefined variable: url)
+Nov 12 03:33:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 80 (Undefined variable: url)
+Nov 12 03:33:02 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\apps\ws\lib\Util.php on line 30 (file_put_contents(D:\Github\wsprogramacion\php\cache\curl\2014\11\12\): failed to open stream: No such file or directory)
+Nov 12 03:33:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 12 03:33:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 12 03:33:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 12 03:33:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 12 03:33:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 12 03:33:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 12 03:33:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 12 03:33:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 12 03:33:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 12 03:33:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 12 03:33:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 12 03:33:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 12 03:33:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 12 03:33:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 12 03:33:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 12 03:33:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 12 03:33:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 12 03:33:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 12 03:33:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 12 03:33:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 12 03:33:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 12 03:33:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:33:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:33:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:33:27 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:33:27 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 75 (Undefined variable: url)
+Nov 12 03:33:27 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 80 (Undefined variable: url)
+Nov 12 03:33:27 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\apps\ws\lib\Util.php on line 30 (file_put_contents(D:\Github\wsprogramacion\php\cache\curl\2014\11\12\): failed to open stream: No such file or directory)
+Nov 12 03:33:28 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 12 03:33:28 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 12 03:33:28 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 12 03:33:28 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 12 03:33:28 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 12 03:33:28 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 12 03:33:28 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 12 03:33:28 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 12 03:33:28 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 12 03:33:28 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 12 03:33:28 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 12 03:33:28 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 12 03:33:28 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 12 03:33:28 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 12 03:33:28 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 12 03:33:28 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 12 03:33:29 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 12 03:33:29 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 12 03:33:29 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 12 03:33:29 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 12 03:33:29 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 12 03:33:58 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:33:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:33:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:33:58 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:33:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 75 (Undefined variable: url)
+Nov 12 03:33:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 80 (Undefined variable: url)
+Nov 12 03:33:58 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\apps\ws\lib\Util.php on line 30 (file_put_contents(D:\Github\wsprogramacion\php\cache\curl\): failed to open stream: No such file or directory)
+Nov 12 03:33:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 12 03:33:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 12 03:33:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 12 03:33:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 12 03:33:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 12 03:33:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 12 03:33:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 12 03:33:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 12 03:33:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 12 03:33:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 12 03:33:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 12 03:33:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 12 03:33:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 12 03:33:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 12 03:33:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 12 03:33:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 12 03:33:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 12 03:33:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 12 03:33:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 12 03:33:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 12 03:33:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 12 03:35:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:35:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:35:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:35:08 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:35:08 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 75 (Undefined variable: url)
+Nov 12 03:35:08 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 80 (Undefined variable: url)
+Nov 12 03:35:08 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\apps\ws\lib\Util.php on line 30 (file_put_contents(D:\Github\wsprogramacion\php\cache\curl\): failed to open stream: No such file or directory)
+Nov 12 03:35:08 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 12 03:35:08 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 12 03:35:08 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 12 03:35:08 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 12 03:35:08 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 12 03:35:08 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 12 03:35:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 12 03:35:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 12 03:35:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 12 03:35:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 12 03:35:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 12 03:35:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 12 03:35:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 12 03:35:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 12 03:35:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 12 03:35:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 12 03:35:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 12 03:35:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 12 03:35:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 12 03:35:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 12 03:35:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 12 03:35:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:35:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:35:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:35:51 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:35:51 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 75 (Undefined variable: url)
+Nov 12 03:35:51 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 80 (Undefined variable: url)
+Nov 12 03:37:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:37:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:37:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:37:05 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:37:08 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 12 03:37:08 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 12 03:37:08 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 12 03:37:08 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 12 03:37:08 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 12 03:37:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 12 03:37:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 12 03:37:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 12 03:37:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 12 03:37:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 12 03:37:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 12 03:37:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 12 03:37:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 12 03:37:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 12 03:37:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 12 03:37:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 12 03:37:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 12 03:37:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 12 03:37:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 12 03:37:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 12 03:37:09 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 12 03:37:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:37:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:37:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:37:14 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:37:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 12 03:37:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 12 03:37:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 12 03:37:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 12 03:37:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 12 03:37:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 12 03:37:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 12 03:37:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 12 03:37:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 12 03:37:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 12 03:37:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 12 03:37:14 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 12 03:37:15 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 12 03:37:15 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 12 03:37:15 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 12 03:37:15 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 12 03:37:15 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 12 03:37:15 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 12 03:37:15 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 12 03:37:15 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 12 03:37:15 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 12 03:41:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:41:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:41:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:41:46 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:41:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 12 03:41:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 12 03:41:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 12 03:41:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 12 03:41:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 12 03:41:46 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 12 03:41:47 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 12 03:41:47 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 12 03:41:47 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 12 03:41:47 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 12 03:41:47 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 12 03:41:47 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 12 03:41:47 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 12 03:41:47 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 12 03:41:47 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 12 03:41:47 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 12 03:41:47 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 12 03:41:47 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 12 03:41:47 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 12 03:41:47 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 12 03:41:47 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 12 03:43:30 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:43:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:43:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:43:30 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:43:30 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 12 03:43:30 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 12 03:43:30 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 12 03:43:30 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 12 03:43:30 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 12 03:43:30 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 12 03:43:30 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 12 03:43:30 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 12 03:43:30 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 12 03:43:30 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 12 03:43:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 12 03:43:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 12 03:43:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 12 03:43:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 12 03:43:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 12 03:43:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 12 03:43:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 12 03:43:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 12 03:43:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 12 03:43:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 12 03:43:31 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 12 03:43:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:43:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:43:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:43:51 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:43:51 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 12 03:43:51 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 12 03:43:51 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 12 03:43:51 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 12 03:43:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 12 03:43:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 12 03:43:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 12 03:43:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 12 03:43:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 12 03:43:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 12 03:43:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 12 03:43:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 12 03:43:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 12 03:43:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 12 03:43:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 12 03:43:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 12 03:43:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 12 03:43:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 12 03:43:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 12 03:43:52 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 12 03:43:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 12 03:55:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:55:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:55:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:55:42 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:55:42 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 12 03:55:42 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 12 03:55:42 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 12 03:55:42 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 12 03:55:42 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 12 03:55:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 12 03:55:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 12 03:55:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 12 03:55:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 12 03:55:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 12 03:55:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 12 03:55:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 12 03:55:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 12 03:55:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 12 03:55:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 12 03:55:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 12 03:55:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 12 03:55:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 12 03:55:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 12 03:55:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 12 03:55:43 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 12 03:55:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:55:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:55:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:55:53 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:55:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 45 (Constant HDOM_TYPE_ELEMENT already defined)
+Nov 12 03:55:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 46 (Constant HDOM_TYPE_COMMENT already defined)
+Nov 12 03:55:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 47 (Constant HDOM_TYPE_TEXT already defined)
+Nov 12 03:55:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 48 (Constant HDOM_TYPE_ENDTAG already defined)
+Nov 12 03:55:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 49 (Constant HDOM_TYPE_ROOT already defined)
+Nov 12 03:55:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 50 (Constant HDOM_TYPE_UNKNOWN already defined)
+Nov 12 03:55:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 51 (Constant HDOM_QUOTE_DOUBLE already defined)
+Nov 12 03:55:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 52 (Constant HDOM_QUOTE_SINGLE already defined)
+Nov 12 03:55:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 53 (Constant HDOM_QUOTE_NO already defined)
+Nov 12 03:55:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 54 (Constant HDOM_INFO_BEGIN already defined)
+Nov 12 03:55:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 55 (Constant HDOM_INFO_END already defined)
+Nov 12 03:55:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 56 (Constant HDOM_INFO_QUOTE already defined)
+Nov 12 03:55:53 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 57 (Constant HDOM_INFO_SPACE already defined)
+Nov 12 03:55:54 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 58 (Constant HDOM_INFO_TEXT already defined)
+Nov 12 03:55:54 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 59 (Constant HDOM_INFO_INNER already defined)
+Nov 12 03:55:54 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 60 (Constant HDOM_INFO_OUTER already defined)
+Nov 12 03:55:54 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 61 (Constant HDOM_INFO_ENDSPACE already defined)
+Nov 12 03:55:54 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 62 (Constant DEFAULT_TARGET_CHARSET already defined)
+Nov 12 03:55:54 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 63 (Constant DEFAULT_BR_TEXT already defined)
+Nov 12 03:55:54 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 64 (Constant DEFAULT_SPAN_TEXT already defined)
+Nov 12 03:55:54 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\lib\simple_html_dom.php on line 65 (Constant MAX_FILE_SIZE already defined)
+Nov 12 03:56:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:56:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:56:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:56:16 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:56:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:56:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:56:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:56:59 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:57:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:57:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:57:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:57:34 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 03:58:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 03:58:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 03:58:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 03:58:16 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:02:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:02:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:02:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:02:26 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:02:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:02:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:02:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:02:55 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:02:55 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:55 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:55 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:55 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:55 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:56 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:57 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:58 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:02:59 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:00 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:01 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:02 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:03:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 99 (Trying to get property of non-object)
+Nov 12 04:04:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:04:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:04:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:04:11 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:04:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:04:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:04:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:04:41 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:09:38 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:09:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:09:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:09:39 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:11:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:11:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:11:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:11:04 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:11:04 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 114 (json_decode() expects parameter 1 to be string, array given)
+Nov 12 04:11:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:11:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:11:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:11:34 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:11:34 symfony [warning] {sfWebDebugLogger}  Warning at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 114 (json_decode() expects parameter 1 to be string, array given)
+Nov 12 04:11:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:11:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:11:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:11:50 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:15:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:15:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:15:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:15:06 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:15:06 symfony [notice] {sfWebDebugLogger}  Notice at D:\Github\wsprogramacion\php\apps\ws\modules\api\actions\actions.class.php on line 114 (Array to string conversion)
+Nov 12 04:15:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:15:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:15:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:15:19 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:15:54 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:15:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:15:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:15:54 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:16:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:16:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:16:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:16:04 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:16:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:16:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:16:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:16:15 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:16:23 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:16:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:16:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:16:23 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:16:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:16:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:16:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:16:35 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:16:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:16:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:16:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:16:44 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:16:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:16:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:16:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:16:50 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:16:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:16:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:16:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:16:59 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:17:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:17:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:17:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:17:41 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:18:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:18:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:18:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:18:53 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:19:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:19:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:19:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:19:12 symfony [info] {apiActions} Call "apiActions->executeIndex()"
+Nov 12 04:19:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Nov 12 04:19:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 04:19:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 04:19:50 symfony [info] {apiActions} Call "apiActions->executeIndex()"
